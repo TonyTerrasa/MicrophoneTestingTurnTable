@@ -90,13 +90,13 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 5. Mount the _MotorMount_ to the floor of the _Body_. The _MotorMount_ goes onto the set of 3 holes. Note that this mount is held to the body via tapped holes that enter through the floor of the body and into the bottom of the mount. 
 6. Connect the motor to the output pins on the ULN2003 board, and use jumpers to connect the four input pins on the ULN2003 board with your desired pins on the Arduino. 
 7. Insert the _DriveShaft_ and _DrivenShaft_ into their respective bearings. 
-    5. The _DriveShaft_ goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
-    6. The _DrivenShaft_ goes with the slip ring. Ensure that the gears mesh appropriately and there are no supports interfering with the rotation all the way around the gears. 
+    1. The _DriveShaft_ goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
+    2. The _DrivenShaft_ goes with the slip ring. Ensure that the gears mesh appropriately and there are no supports interfering with the rotation all the way around the gears. 
 8. Fasten the _MountShaft_ to the _DrivenShaft_ with a 3M screw.
 9. Feed the wires from the slip ring up through the _DrivenShaft_ and mount the _SlipringMount_ the the floor of the _Body_. Note this mounting mechanism is the same as for the _MotorMount_.
 10. Ensure that all headers and pins are inserted into appropriate headers on _MountBoard_
 11. Mount the _MountBoard_ onto the _BoardMount_ and with 3M fasteners around the perimeter.
-12. Mount the _MicBoard_ to the _MountBoard _with the four designated holes, ensuring that appropriate pins and pads align. Note that the pogo pins should push against the screws and the screws should not be tightened too tight as to not break the pogo pins. 
+12. Mount the _MicBoard_ to the _MountBoard_ with the four designated holes, ensuring that appropriate pins and pads align. Note that the pogo pins should push against the screws and the screws should not be tightened too tight as to not break the pogo pins. 
 
 
 ## Boards:
