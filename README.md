@@ -44,20 +44,20 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 
 
 
-    *   _Body_ - box-shaped frame onto which the whole system mounts
-    *   _BoardMount_ - mounting bracket that connects the _MountShaft _and the_ MountBoard_
-    *   _MountShaft _- interacts with the _DrivenShaft _and holds up the microphone boards
-    *   _DriveShaft_ - solid shaft with a gear, collar, and hole to interface with motor 
-    *   _DrivenShaft _- hollow shaft with a gear and collar, driven by the _DriveShaft_
-    *   _MotorMount _- mounts the motor to the body 
-    *   _SlipRingMount _- mounts the slip ring to the body 
+*   _Body_ - box-shaped frame onto which the whole system mounts
+*   _BoardMount_ - mounting bracket that connects the _MountShaft _and the_ MountBoard_
+*   _MountShaft_ - interacts with the _DrivenShaft_ and holds up the microphone boards
+*   _DriveShaft_ - solid shaft with a gear, collar, and hole to interface with motor 
+*   _DrivenShaft_ - hollow shaft with a gear and collar, driven by the _DriveShaft_
+*   _MotorMount_ - mounts the motor to the body 
+*   _SlipRingMount_ - mounts the slip ring to the body 
 
 
 ### Boards:
 
 
 
-*   _Mount Board _- PCB which connects the wires from within the table to the _MicBoard_
+*   _Mount Board_ - PCB which connects the wires from within the table to the _MicBoard_
 *   _MicBoard_ - custom PCB for the microphone that is to be tested
 
 
@@ -89,8 +89,8 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 4. Mount motor and slip ring into _MotorMount_ and _SlipringMount_ respectively. Note that the motor is held to its mount with 2 tapped holes while the slip ring sits freely in its mount.
 5. Mount the _MotorMount_ to the floor of the _Body_. The _MotorMount_ goes onto the set of 3 holes. Note that this mount is held to the body via tapped holes that enter through the floor of the body and into the bottom of the mount. 
 6. Connect the motor to the output pins on the ULN2003 board, and use jumpers to connect the four input pins on the ULN2003 board with your desired pins on the Arduino. 
-7. Insert the _DriveShaft _and _DrivenShaft _into their respective bearings. 
-    5. The _DriveShaft _goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
+7. Insert the _DriveShaft_ and _DrivenShaft_ into their respective bearings. 
+    5. The _DriveShaft_ goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
     6. The _DrivenShaft_ goes with the slip ring. Ensure that the gears mesh appropriately and there are no supports interfering with the rotation all the way around the gears. 
 8. Fasten the _MountShaft_ to the _DrivenShaft_ with a 3M screw.
 9. Feed the wires from the slip ring up through the _DrivenShaft_ and mount the _SlipringMount_ the the floor of the _Body_. Note this mounting mechanism is the same as for the _MotorMount_.
@@ -144,9 +144,9 @@ Before starting to take measurements, it is essential that the turntable is full
 
 In the first use of this device, several obstacles to good sound quality were encountered. Below is information on such issues and what was done to address them. 
 
-_Grounding --  _It was important to not ground signal from the microphone to the Arduino. The Arduino ground is not steady enough for high-quality signal reference. A lab power supply was instead used to power the microphone and ground the signal. 
+_Grounding_ --  It was important to not ground signal from the microphone to the Arduino. The Arduino ground is not steady enough for high-quality signal reference. A lab power supply was instead used to power the microphone and ground the signal. 
 
-_Amplification -- _An Op-Amp circuit was incorporated into the _MicBoard_ design to amplify the incoming signal. 
+_Amplification_ -- An Op-Amp circuit was incorporated into the _MicBoard_ design to amplify the incoming signal. 
 
-_Balanced Audio --_ The designed system does not inherently output balanced audio. In an attempt to reduce the noise from the signal, an auxiliary board was used to balance the signal before sending it to the computer. 
+_Balanced Audio_ -- The designed system does not inherently output balanced audio. In an attempt to reduce the noise from the signal, an auxiliary board was used to balance the signal before sending it to the computer. 
 
