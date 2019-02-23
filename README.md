@@ -103,7 +103,7 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 
 This turntable is designed to allow for the mounting of any microphone that one can create a board for. The boards provided in the CAD are purely for reference for mounting holes for the design of the custom PCBs required for this turntable. The boards already used for data collection with this device were designed by David Ramsay will be posted in the future. See notes below about getting the best sound quality for more information about customizing boards.
 
-The turntable is designed so that the _MountBoard_ stays in place at the top of the _Shaft_ and the _MicBoard_ can be customized for the desired microphone and mounted on top of the _MountBoard _ with spring-loaded pogo pins. The holes for the pogo pins are designed such that through-hole or pad pins can be used.Through-hole pins are used in the CAD. 
+The turntable is designed so that the _MountBoard_ stays in place at the top of the _Shaft_ and the _MicBoard_ can be customized for the desired microphone and mounted on top of the _MountBoard_ with spring-loaded pogo pins. The holes for the pogo pins are designed such that through-hole or pad pins can be used.Through-hole pins are used in the CAD. 
 
 
 ## Taking measurements
