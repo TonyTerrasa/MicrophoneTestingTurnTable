@@ -81,7 +81,7 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 1. Pre set-up
     1. Design, order, and build desired PCBs (see **Boards** sections)
     2. Print all parts and remove support material.
-        1. When choosing the print orientations, keep in mind that the fit on most of the parts are designed such that sanding will be required to get them to fit snuggly. This was done to allow for supports to be used in the print and sanded back. That being said, avoid supports on areas of the parts that require many precise fits (gears) if possible. 
+        * When choosing the print orientations, keep in mind that the fit on most of the parts are designed such that sanding will be required to get them to fit snuggly. This was done to allow for supports to be used in the print and sanded back. That being said, avoid supports on areas of the parts that require many precise fits (gears) if possible. 
     3. Solder extensions onto 6 of the wires on the slip ring so that the wires can reach all the way through the _Shaft_ with about 1'' of extra clearance
     4. Tap all appropriate holes. All 2.5mm holes are meant to be tapped for 3M screws. 
 2. Insert bearings into their designated holes in the top of the _Body_. The fit should be snug. Sand holes as necessary.
@@ -90,8 +90,8 @@ Many parts for this turntable are of custom geometry and were 3D-printed for whi
 5. Mount the _MotorMount_ to the floor of the _Body_. The _MotorMount_ goes onto the set of 3 holes. Note that this mount is held to the body via tapped holes that enter through the floor of the body and into the bottom of the mount. 
 6. Connect the motor to the output pins on the ULN2003 board, and use jumpers to connect the four input pins on the ULN2003 board with your desired pins on the Arduino. 
 7. Insert the _DriveShaft_ and _DrivenShaft_ into their respective bearings. 
-    1. The _DriveShaft_ goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
-    2. The _DrivenShaft_ goes with the slip ring. Ensure that the gears mesh appropriately and there are no supports interfering with the rotation all the way around the gears. 
+    * The _DriveShaft_ goes with the motor. Make sure that the hole at the bottom engages with the shaft of the motor 
+    * The _DrivenShaft_ goes with the slip ring. Ensure that the gears mesh appropriately and there are no supports interfering with the rotation all the way around the gears. 
 8. Fasten the _MountShaft_ to the _DrivenShaft_ with a 3M screw.
 9. Feed the wires from the slip ring up through the _DrivenShaft_ and mount the _SlipringMount_ the the floor of the _Body_. Note this mounting mechanism is the same as for the _MotorMount_.
 10. Ensure that all headers and pins are inserted into appropriate headers on _MountBoard_
