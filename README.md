@@ -14,7 +14,7 @@ This is a physical tool that can be used to test microphones at any and all angl
 
 
 
-*   STL - contains STLs of all custom files for this project
+*   STLs - contains STLs of all custom files for this project
 *   Drawings - contains technical drawings for this project in both dwg and pdf format
 *   SLDWKS - All of the original CAD files for this project
     *   All of these models are entirely parametric and dependent upon a dimensions.txt file. This file will be necessary in order to open and work with the project. 
@@ -136,7 +136,7 @@ Before starting to take measurements, it is essential that the turntable is full
 3. Connect computer to both the Arduino and audio interface with USB-A to USB-B cables.
 4. Connect the microphone to the audio interface with the custom XLR cable, powering and grounding the microphone with the lab power supply. 
 5. Connect computer to the audio interface and ensure that both audio can be received from the microphone and outputted to the speakers.
-6. See the Python measurement script to ensure that your ports and Arduino are configured correctly.  All of the code for this project can be found [here](https://github.com/dramsay9/pythonAudioMeasurements.git).
+6. See the Python measurement script to ensure that your ports and Arduino are configured correctly. 
 7. Run the measurement script.
 
 
