@@ -1,0 +1,3 @@
+[submodule "polar-measurement"]
+	path = polar-measurement
+	url = https://github.com/dramsay9/polar-measurement.git

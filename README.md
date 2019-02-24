@@ -1,5 +1,4 @@
 
-
 ## Turntable for Gathering Data About MEMS and Other Small Microphones
 
 Designed by Tony Terrasa (Gabriel) under the direct supervision of David Ramsay in the MIT Media Lab. 
@@ -7,7 +6,7 @@ Designed by Tony Terrasa (Gabriel) under the direct supervision of David Ramsay 
 
 ## Overview:
 
-This is a physical tool that can be used to test microphones at any and all angles in one plane. It goes in tandem with a [Python library](https://github.com/dramsay9/pythonAudioMeasurements.git) for handling audio, collecting data, generating polar patterns for microphones, and interacting with the Arduino and stepper motors required for this build. Data collected with this tool allows one to understand the way a microphone reacts as a function of both angle and frequency, which can have a wide range of applications including but not limited to selective audio capture with microphone arrays. 
+This is a physical tool that can be used to test microphones at any and all angles in one plane. It goes in tandem with the Python library included as a submodule for handling audio, collecting data, generating polar patterns for microphones, and interacting with the Arduino and stepper motors required for this build. Data collected with this tool allows one to understand the way a microphone reacts as a function of both angle and frequency, which can have a wide range of applications including but not limited to selective audio capture with microphone arrays. 
 
 
 ## Available Files:
